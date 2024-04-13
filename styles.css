@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100wh;
+    overflow-x: none;
+    background-color: rgb(229, 226, 241);
+
+}
+.navContainer{
+    width: 100vw;
+    background-color: rgb(55, 55, 218);
+
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+nav{
+    width: 100%;
+    color: azure;
+    padding-right: 2rem;
+
+    
+}
+#navlist{
+    width: 100vw;
+    padding: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#navlogo{
+
+    font-size: 2.8rem;
+}
+a{
+    text-decoration: none;
+    color: azure;
+
+}
+#navitems{
+    display: flex;
+    gap: 60px;
+}
+.footerbox{
+    background-color: rgb(55, 55, 218);
+
+    text-align: center;
+    min-height: 30px;
+}
+.footerbox p{
+    color: azure;
+     font-size: 2rem;
+}
+.contentbox{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid rgb(31, 28, 28); */
+    background-color: azure;
+    display: flex;
+    flex-direction:column ;
+    gap: 100%;
+    padding: 3rem;
+    box-shadow:  0px 0px 30px black;
+
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightbox{
+    position: relative;
+    overflow:hidden ;
+}
+.rightbox img{
+    height: auto;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+.imgbox{
+    font-size: 1.2rem;
+}
+.recipebox{
+    font-size:1.2rem ;
+}
+.rightbox img:hover{
+
+transform: scale(1.1);
+
+}
